@@ -1,6 +1,6 @@
 # xkb-pl
 
-Extended Polish layout for xkb — with some twists ;-).
+Extended Polish layout for xkb (”pl_ext”) with some twists ;-).
 
 # Rationale
 
