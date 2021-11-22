@@ -369,8 +369,8 @@ xkb_symbols "pl_ext" {
     
 
     
-    key <TLDE>	{ [ underscore , asciitilde, U00df  ]	};
-    key <AE01>	{ [         1,     exclam ]	};
+    key <TLDE>	{ [ underscore , asciitilde, questiondown  ]	};
+    key <AE01>	{ [         1,     exclam, exclamdown ]	};
     key <AE02>	{ [         2,         at, EuroSign ]	};
     key <AE03>	{ [         3, numbersign, yen ]	};
     key <AE04>	{ [         4,     dollar, sterling ]	};
@@ -383,14 +383,14 @@ xkb_symbols "pl_ext" {
     key <AE11>	{ [     minus, grave, endash, hyphen ]	};
     key <AE12>	{ [     plus, backslash, emdash, U00f7   ]	};
 
-    key <AD01>	{ [         q,          Q ]	};
-    key <AD02>	{ [         w,          W ]	};
+    key <AD01>	{ [         q,          Q, aacute, Aacute ]	};
+    key <AD02>	{ [         w,          W, eacute, Eacute ]	};
     key <AD03>	{ [         e,          E,      eogonek,      Eogonek ]	};
     key <AD04>	{ [         r,          R ]	};
     key <AD05>	{ [         t,          T ]	};
     key <AD06>	{ [         y,          Y ]	};
-    key <AD07>	{ [         u,          U ]	};
-    key <AD08>	{ [         i,          I ]	};
+    key <AD07>	{ [         u,          U, uacute, Uacute ]	};
+    key <AD08>	{ [         i,          I, iacute, Iacute ]	};
     key <AD09>	{ [         o,          O,       oacute,       Oacute ]	};
     key <AD10>	{ [         p,          P, paragraph ]	};
     key <AD11>	{ [parenleft,  braceleft, adiaeresis , Adiaeresis ] };
@@ -413,9 +413,9 @@ xkb_symbols "pl_ext" {
     key <AB02>	{ [         x,          X,       zacute,       Zacute ]	};
     key <AB03>	{ [         c,          C,       cacute,       Cacute ]	};
     key <AB04>	{ [         v,          V ]	};
-    key <AB05>	{ [         b,          B ] };
+    key <AB05>	{ [         b,          B,  U00df ] }; // ß
     key <AB06>	{ [         n,          N,       nacute,       Nacute ]	};
-    key <AB07>	{ [         m,          M ]	};
+    key <AB07>	{ [         m,          M, ntilde, Ntilde ]	};
     key <AB08>	{ [     comma,       less, guillemotleft, lessthanequal ]	};
     key <AB09>	{ [    period,    greater, guillemotright, greaterthanequal ]	};
     key <AB10>	{ [     slash,   question, U2026, U205d ] };
